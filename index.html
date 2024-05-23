@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topBanner"></div>
+    <div class="header">
+      <a href="https://www.stadium.se/"
+        ><img src="images/Stadium-Logo-black.svg" alt="Home of Stadium"
+      /></a>
+    </div>
+    <div class="banner">
+      <p>
+        25% på Fotbollsskor.
+        <a
+          target="_blank"
+          href="https://www.stadium.se/sport/fotboll/fotbollsskor.se29739878?varseo"
+        >
+          Till erbjudandet</a
+        >
+      </p>
+    </div>
+    <div class="pageContent">
+      <div class="pageRegister">
+        <div class="member">Bli medlem</div>
+        <div class="memberText">
+          <p>Som Stadium Member får du:</p>
+          <ul>
+            <li>Bonuspoäng på dina framtida köp</li>
+            <li>Utdelning på dina framtida köp</li>
+            <li>Ta del av medlemspriser och medlemserbjudande</li>
+          </ul>
+          <form
+            class="myForm"
+            action="https://httpbin.org/anything"
+            method="post"
+          >
+            <div class="formContent">
+              <div>
+                <fieldset>
+                  <label for="pNumber"></label>
+                  <input
+                    type="text"
+                    id="pNumber"
+                    name="pNumber"
+                    placeholder="Personnummer"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div>
+                <fieldset>
+                  <label for="email"></label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="E-post"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div>
+                <fieldset>
+                  <label for="fName"></label>
+                  <input
+                    type="text"
+                    id="fName"
+                    name="fName"
+                    placeholder="Förnamn"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div>
+                <fieldset>
+                  <label for="lName"></label>
+                  <input
+                    type="text"
+                    id="lName"
+                    name="lName"
+                    placeholder="Efternamn"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div>
+                <fieldset>
+                  <label for="phoneNumber"></label>
+                  <input
+                    type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Mobilnummer"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div>
+                <fieldset>
+                  <label for="password"></label>
+                  <input
+                    type="text"
+                    id="password"
+                    name="password"
+                    placeholder="Lösenord"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div>
+                <fieldset>
+                  <label for="repeatPassword"></label>
+                  <input
+                    type="text"
+                    id="repeatPassword"
+                    name="repeatPassword"
+                    placeholder="Sammma lösenord igen"
+                    required
+                    aria-required="true"
+                  />
+                </fieldset>
+              </div>
+              <div class="termsContainer">
+                <fieldset class="fieldTerms">
+                  <input
+                    class="inputTerms"
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    required
+                    aria-required="true"
+                  />
+                  <label class="labelTerms" for="terms">
+                    <div class="textTerms">
+                      <span>Jag har tagit del av Stadiums</span>
+                      <u
+                        ><a
+                          target="_blank"
+                          href="https://www.stadium.se/medlemsvillkor"
+                          >medlemsvillkor</a
+                        ></u
+                      >
+                      <span>och</span>
+                      <u
+                        ><a
+                          target="_blank"
+                          href="https://www.stadium.se/integritetspolicy"
+                          >integritetspolicy.</a
+                        ></u
+                      >
+                    </div>
+                  </label>
+                </fieldset>
+              </div>
+              <div>
+                <button
+                  class="memberButton"
+                  type="submit"
+                  name="createAccount"
+                  value="createAccount"
+                  required
+                  aria-required="true"
+                >
+                  Bli en Member
+                </button>
+              </div>
+              <div class="alreadyMember">
+                <a
+                  href="https://www.stadium.se/INTERSHOP/web/WFS/Stadium-SwedenB2C-Site/sv_SE/-/SEK/ViewUserAccount-ShowLogin"
+                  >Redan medlem? Till inloggning.</a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
